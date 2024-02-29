@@ -1,0 +1,69 @@
+.header {
+    height: 7pc;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  :where(.css-dev-only-do-not-override-1rqnfsa).ant-btn.ant-btn-loading {
+    opacity: 0.65;
+    cursor: default;
+    height: 2.5pc;
+    font-size: 16px;
+    width: 5pc;
+  }
+  .image {
+    height: 3pc;
+    width: 3pc;
+    margin-right: 20px;
+  }
+  
+  .img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /*
+  .image{
+      height: 10pc;
+  } 
+  */
+  .ant-btn {
+    display: flex;
+    margin-right: 1pc;
+    height: 4pc;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 12pc;
+    justify-content: center;
+  }
+  .add {
+    height: 2.5pc;
+    font-size: 16px;
+    width: 4pc;
+  }
+  .cancel {
+    height: 2.5pc;
+    margin-left: -11pc;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .dark {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  .modaldark .ant-modal-content,
+  .modaldark .ant-modal-header,
+  .modaldark .ant-modal-title,
+  .modaldark .ant-form-item-required {
+    background-color: #1e1e1e;
+    color: #ffffff !important;
+  }
+  
